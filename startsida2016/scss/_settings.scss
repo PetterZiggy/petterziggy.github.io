@@ -94,10 +94,11 @@ $breakpoint-classes: (small medium large xlarge xxlarge);
 $grid-row-width: $global-width;
 $grid-column-count: 12;
 $grid-column-gutter: (
-  small: 0px,
+  small: 20px,
   medium: 20px,
-  large: 30px,
+  large: 20px,
   xlarge: 30px,
+  xxlarge: 30px,
 );
 $grid-column-align-edge: true;
 $block-grid-max: 8;
@@ -242,8 +243,8 @@ $breadcrumbs-item-slash: true;
 // 11. Button
 // ----------
 
-$button-padding: 1.5em 2em;
-$button-margin: 0 0 1rem 0;
+$button-padding: 17px 17px;
+$button-margin: 0 0 0 0;
 $button-fill: solid;
 $button-background: $primary-color;
 $button-background-hover: scale-color($button-background, $lightness: -15%);

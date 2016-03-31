@@ -22,6 +22,10 @@ header {
     transition: all 0.4s ease-in-out;
 }
 
+.columns {
+	margin-bottom: 1.875em;
+}
+
 .container {
     max-width: 1200px;
     width: 100%;
@@ -66,107 +70,17 @@ header {
 	max-width: 40ch;
 }
 
-@media (max-width: 894px) {
-    .hero {
-      background: url('../images/bg-top_tablet.jpg') no-repeat top center;
-      background-size: cover;
-      height: 60%;
-      -webkit-transition: all 0.4s ease-in-out;
-      -moz-transition: all 0.4s ease-in-out;
-      -ms-transition: all 0.4s ease-in-out;
-      -o-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out; } }
-  .hero .item {
-    float: left;
-    width: 70%;
-    margin-right: 0;
-    height: 554px;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-    /*h1{
-		@include transition(all, 0.2s, ease-in-out);
-    }*/ }
-    @media (max-width: 894px) {
-      .hero .item {
-        height: 504px;
-        -webkit-transition: all 0.4s ease-in-out;
-        -moz-transition: all 0.4s ease-in-out;
-        -ms-transition: all 0.4s ease-in-out;
-        -o-transition: all 0.4s ease-in-out;
-        transition: all 0.4s ease-in-out; } }
-    .hero .item.right {
-      float: left; }
-      @media (max-width: 894px) {
-        .hero .item.right {
-          float: left;
-          width: 100%;
-          margin-right: 0;
-          float: none;
-          text-align: center; } }
-    .hero .item.left {
-      float: left; }
-    .hero .item button:hover {
-      -webkit-transition: all 0.2s ease-in-out;
-      -moz-transition: all 0.2s ease-in-out;
-      -ms-transition: all 0.2s ease-in-out;
-      -o-transition: all 0.2s ease-in-out;
-      transition: all 0.2s ease-in-out;
-      background: #9244c8; }
-    .hero .item .hero-text {
-      float: left;
-      width: 70%;
-      margin-right: 0;
-      position: relative;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      transform: translateY(-50%);
-      -webkit-transition: all 0.4s ease-in-out;
-      -moz-transition: all 0.4s ease-in-out;
-      -ms-transition: all 0.4s ease-in-out;
-      -o-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out; }
-      @media (max-width: 894px) {
-        .hero .item .hero-text {
-          float: left;
-          width: 83.33333%;
-          margin-right: 0;
-          float: none;
-          margin: 0 auto !important;
-          top: 35%; } 
-        .hero .item .hero-text p {
-		  overflow: hidden;
-		  max-width: 40ch;
-		  margin: auto;
-		} }
-      @media (max-width: 496px) {
-      .hero .item .hero-text .section-title {
-        text-transform: uppercase; }
-        @media (max-width: 496px) {
-          .hero .item .hero-text .section-title {
-            margin: 0 0 0px; }
-      	  .hero .item .hero-text button {
-       		margin-top: 0px; }
-       		}
-       		}
-
-.rotate {
+.feature {
+	height: 460px;
+	padding: 5.5rem;
 	background: url('../images/RIPPLE_PATTERNS_LANDSCAPE_RGB-18.png') no-repeat center center;
     background-size: cover;
 }
 
-.feature {
+.feature .container {
+    position: relative;
     width: 100%;
-    margin: 0;
-	padding: 4rem 4rem 4rem 4rem;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
+    height: 100%;
 }
 
 .feature p {
@@ -183,8 +97,10 @@ header {
 	width: 50%;
 	float: left;
     position: relative;
-    top: 2rem;
-    bottom: 4rem;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .feature .itemleft .button {
@@ -196,126 +112,11 @@ header {
 	width: 40%;
 	float: right;
 	position: relative;
-	margin-bottom: 4rem;
-}
-
-@media (max-width: 894px) {
-
-header {
-	height: 80px;
-}
-
-.hero {
-      background: url('../images/bg-top_tablet.jpg') no-repeat top center;
-      background-size: cover;
-      -webkit-transition: all 0.4s ease-in-out;
-      -moz-transition: all 0.4s ease-in-out;
-      -ms-transition: all 0.4s ease-in-out;
-      -o-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out;
-}
-
-.feature {
-    margin: 0;
-	padding: 0rem 1rem 0rem 1rem;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-}
-
-.feature p {
-	color: #fff;
-	text-align: left;
-}
-
-.feature h2 {
-	color: #fff;
-	text-align: left;
-}
-
-.feature .itemleft {
-	float: left;
-    position: relative;
-    top: 2rem;
-    bottom: 2rem;
-}
-
-.feature .itemright {
-	float: right;
-	position: relative;
-	margin-bottom: 4rem;
-	margin-top: 4rem;
-} }
-
-@media (max-width: 496px) {
-
-header {
-	height: 60px;
-}
-
-.hero {
-      background: url('../images/bg-top_tablet.jpg') no-repeat top center;
-      background-size: cover;
-      height: 90%;
-      -webkit-transition: all 0.4s ease-in-out;
-      -moz-transition: all 0.4s ease-in-out;
-      -ms-transition: all 0.4s ease-in-out;
-      -o-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out;
-}
-
-.feature {
-    margin: 0;
-	padding: 0rem 1rem 0rem 1rem;
-    -webkit-transition: all 0.4s ease-in-out;
-    -moz-transition: all 0.4s ease-in-out;
-    -ms-transition: all 0.4s ease-in-out;
-    -o-transition: all 0.4s ease-in-out;
-    transition: all 0.4s ease-in-out;
-}
-
-.feature p {
-	color: #fff;
-	text-align: center;
-	padding: 0 1rem 0 1rem;
-	margin-bottom: 2rem;
-}
-
-.feature h2 {
-	max-width: 100%;
-	color: #fff;
-	text-align: center;
-}
-
-.feature .itemleft {
-	width: 100%;
-	float: none;
-    position: relative;
-    top: 2rem;
-    bottom: 2rem;
-}
-
-.feature .itemleft .button {
-	position: relative;
-    left: 50%;
-    margin-right: -50%;
+	top: 50%;
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    color: #000;
+	transform: translateY(-50%);
 }
-
-.feature .itemright {
-	width: 100%;
-	padding: 0 4rem 0 4rem;
-	float: none;
-	position: relative;
-	margin-bottom: 2rem;
-	margin-top: 1rem;
-} }
 
 .left_box {
     width: 100%;
@@ -403,3 +204,409 @@ header {
     background-color: #fff;
     color: #000;
 }
+
+@media (max-width: 894px) {
+
+    .hero {
+      background: url('../images/bg-top_tablet.jpg') no-repeat top center;
+      background-size: cover;
+      height: 60%;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -ms-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; } }
+  .hero .item {
+    float: left;
+    width: 70%;
+    margin-right: 0;
+    height: 554px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    /*h1{
+		@include transition(all, 0.2s, ease-in-out);
+    }*/ }
+    @media (max-width: 894px) {
+      .hero .item {
+        height: 504px;
+        -webkit-transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -ms-transition: all 0.4s ease-in-out;
+        -o-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out; } }
+    .hero .item.right {
+      float: left; }
+      @media (max-width: 894px) {
+        .hero .item.right {
+          float: left;
+          width: 100%;
+          margin-right: 0;
+          float: none;
+          text-align: center; } }
+    .hero .item.left {
+      float: left; }
+    .hero .item button:hover {
+      -webkit-transition: all 0.2s ease-in-out;
+      -moz-transition: all 0.2s ease-in-out;
+      -ms-transition: all 0.2s ease-in-out;
+      -o-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+      background: #9244c8; }
+    .hero .item .hero-text {
+      float: left;
+      width: 70%;
+      margin-right: 0;
+      position: relative;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -ms-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out; }
+      @media (max-width: 894px) {
+        .hero .item .hero-text {
+          float: left;
+          width: 83.33333%;
+          margin-right: 0;
+          float: none;
+          margin: 0 auto !important;
+          top: 35%; } 
+        .hero .item .hero-text p {
+		  overflow: hidden;
+		  max-width: 40ch;
+		  margin: auto;
+		} }
+      @media (max-width: 496px) {
+      .hero .item .hero-text .section-title {
+        text-transform: uppercase; }
+        @media (max-width: 496px) {
+          .hero .item .hero-text .section-title {
+            margin: 0 0 0px; }
+      	  .hero .item .hero-text button {
+       		margin-top: 0px; }
+       		}
+       		}
+
+@media (max-width: 894px) {
+
+.columns {
+    margin-bottom: 1.25em;
+}
+
+header {
+	height: 80px;
+}
+
+.hero {
+      background: url('../images/bg-top_tablet.jpg') no-repeat top center;
+      background-size: cover;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -ms-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+}
+
+.feature {
+	padding: 3rem;
+	background: url('../images/RIPPLE_PATTERNS_LANDSCAPE_RGB-18.png') no-repeat center center;
+    background-size: cover;
+}
+
+.feature .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.feature p {
+	color: #fff;
+	max-width: 58ch;
+}
+
+.feature h2 {
+	color: #fff;
+	max-width: 18ch;
+}
+
+.feature .itemleft {
+	width: 50%;
+	float: left;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.feature .itemleft .button {
+	background-color: #fff;
+    color: #000;
+}
+
+.feature .itemright {
+	width: 45%;
+	float: right;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.left_box {
+    width: 100%;
+    height: 380px;
+	padding: 1rem;
+    background: url('../images/left_box.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.left_box .container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.left_box .container .itemleft {
+	float: left;
+	max-width: 60%;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.left_box .container .itemleft h3 {
+	color: #fff;
+}
+
+.left_box .container .itemleft p {
+	color: #fff;
+}
+
+.left_box .container .itemleft .button {
+	position: relative;
+    background-color: #fff;
+    color: #000;
+}
+
+.left_box .container .itemright {
+	float: right;
+	max-width: 40%;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+}
+
+.right_box {
+    width: 100%;
+    height: 380px;
+	padding: 1rem;
+    background: url('../images/right_box.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.right_box .container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.right_box .container .itemleft {
+	float: left;
+	max-width: 60%;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.right_box .container .itemleft h3 {
+	color: #fff;
+}
+
+.right_box .container .itemleft p {
+	color: #fff;
+}
+
+.right_box .container .itemleft .button {
+	position: relative;
+    background-color: #fff;
+    color: #000;
+}
+
+}
+
+@media (max-width: 496px) {
+
+.columns {
+    margin-bottom: 0.625em;
+}
+
+header {
+	height: 60px;
+}
+
+.hero {
+      background: url('../images/bg-top_tablet.jpg') no-repeat top center;
+      background-size: cover;
+      height: 90%;
+      -webkit-transition: all 0.4s ease-in-out;
+      -moz-transition: all 0.4s ease-in-out;
+      -ms-transition: all 0.4s ease-in-out;
+      -o-transition: all 0.4s ease-in-out;
+      transition: all 0.4s ease-in-out;
+} 
+
+.feature {
+	height: 550px;
+	padding: 1.5rem;
+	background: url('../images/RIPPLE_PATTERNS_LANDSCAPE_RGB-18.png') no-repeat center center;
+    background-size: cover;
+}
+
+.feature .container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.feature p {
+	color: #fff;
+	text-align: center;
+}
+
+.feature h2 {
+	max-width: none;
+	color: #fff;
+	text-align: center;
+}
+
+.feature .itemleft {
+	width: 100%;
+	float: none;
+    position: relative;
+	top: 0%;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+
+.feature .itemleft .button {
+	display: block;
+	float: none;
+	background-color: #fff;
+    color: #000;
+    margin: 0 auto;
+}
+
+.feature .itemright {
+	display: block;
+	width: 70%;
+	float: none;
+	position: relative;
+    margin: 0 auto;
+	top: 2rem;
+	-webkit-transform: none;
+	-ms-transform: none;
+	transform: none;
+}
+
+.left_box {
+    width: 100%;
+    height: 380px;
+	padding: 1rem;
+    background: url('../images/left_box.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.left_box .container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.left_box .container .itemleft {
+	float: left;
+	max-width: 60%;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.left_box .container .itemleft h3 {
+	color: #fff;
+}
+
+.left_box .container .itemleft p {
+	color: #fff;
+}
+
+.left_box .container .itemleft .button {
+	position: relative;
+    background-color: #fff;
+    color: #000;
+}
+
+.left_box .container .itemright {
+	float: right;
+	max-width: 40%;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+
+}
+
+.right_box {
+    width: 100%;
+    height: 380px;
+	padding: 1rem;
+    background: url('../images/right_box.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.right_box .container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.right_box .container .itemleft {
+	float: left;
+	max-width: 75%;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.right_box .container .itemleft h3 {
+	color: #fff;
+}
+
+.right_box .container .itemleft p {
+	color: #fff;
+}
+
+.right_box .container .itemleft .button {
+	position: relative;
+    background-color: #fff;
+    color: #000;
+} }
