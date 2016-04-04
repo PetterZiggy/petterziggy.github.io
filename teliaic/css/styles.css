@@ -195,7 +195,10 @@ a:active {
 
 /*CONTENT
 --------------------------------------*/
-
+.content {
+	display: block;
+	background-color: #990AE3;
+}
 
 /*FOOTER
 --------------------------------------*/
