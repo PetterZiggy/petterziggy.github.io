@@ -200,6 +200,11 @@ a:active {
 	background-color: #990AE3;
 }
 
+.content p {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+}
+
 /*FOOTER
 --------------------------------------*/
 .footer {
