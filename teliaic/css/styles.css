@@ -73,12 +73,12 @@ h5 {
 
 
 p.form-field.email.pd-text.required.no-label {
-	width: 300px;
+	width: 435px;
 	float: left;
 }
 
 form.form p.no-label, form.form p.email-pref {
-    margin: 0 0 0 0;
+    margin: 0 25px 0 0;
     padding: 0;
 }
 
@@ -135,7 +135,7 @@ form.form p.errors {
 }
 
 form.form input.text {
-    width: 285px !important;
+    width: 435px !important;
     height: 46px !important;
     border: none !important;
     font-size: 16px;
