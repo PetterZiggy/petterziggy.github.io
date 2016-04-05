@@ -98,19 +98,14 @@ form.form p span.description {
 }
 
 form.form p.error {
-	display: block !important;
-    background: #ff3264 !important;
-    color: #fff !important;
-    padding-left: .5em !important;
-    margin-bottom: 1em !important;
+	color: #ff3264 !important;
 }
 
 form.form p.errors {
-	display: block !important;
     background: #ff3264 !important;
-    color: #fff !important;
-    padding-left: .5em !important;
-    margin-bottom: 1em !important;
+    color: #fff;
+    padding-left: .5em;
+    margin-bottom: 1em;
 }
 
 form.form input.text {
