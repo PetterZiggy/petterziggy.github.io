@@ -97,6 +97,10 @@ form.form p span.description {
 	color: #fff !important;
 }
 
+form.form p.error {
+	color: #ff3264;
+}
+
 form.form input.text {
     width: 285px !important;
     height: 46px !important;
