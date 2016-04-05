@@ -88,12 +88,11 @@ p.submit {
 }
 
 form.form p.submit {
-	margin: 0 auto;
+    margin: 2px 1em 4em 1em;
     padding: 0;
 }
 
 form.form p.submit input {
-	display: inline-block;
 	position: relative;
 	float: left;
     border-color: #990ae3;
