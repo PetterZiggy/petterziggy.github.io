@@ -71,13 +71,12 @@ h5 {
 --------------------------------------*/
 
 p.submit {
+	display: inline-block;
 	position: relative;
-	float: right;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 form.form p.submit input {
+	display: inline-block;
 	position: relative;
 	float: left;
     border-color: #990ae3;
