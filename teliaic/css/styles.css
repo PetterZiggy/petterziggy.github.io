@@ -72,6 +72,7 @@ h5 {
 
 p.submit {
 	position: relative;
+	float: right;
 	top: 50%;
 	transform: translateY(-50%);
 }
@@ -99,8 +100,6 @@ form.form p.submit input {
     display: inline-block;
     cursor: pointer;
     outline: none;
-	top: 50%;
-	transform: translateY(-50%);
 }
 
 form.form p span.description {
