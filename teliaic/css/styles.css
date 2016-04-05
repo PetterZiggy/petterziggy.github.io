@@ -70,6 +70,10 @@ h5 {
 /*FORMS
 --------------------------------------*/
 
+p.submit {
+	display: none;
+}
+
 form.form p.submit input {
     border-color: #990ae3;
     background-color: #FFF;
@@ -98,11 +102,12 @@ form.form p span.description {
 }
 
 form.form p.error {
-	color: #ff3264 !important;
+	color: #fff !important;
 }
 
 form.form p.errors {
     background: #ff3264 !important;
+    width: 20%;
     color: #fff;
     padding-left: .5em;
     margin-bottom: 1em;
