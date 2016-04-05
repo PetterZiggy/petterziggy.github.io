@@ -73,9 +73,25 @@ h5 {
 form.form p.submit input {
     margin: 0 10px 0 0;
     padding: 2px 12px;
+    border-color: #990ae3;
+    background-color: #FFF;
     color: #000;
-    background-color: #fff;
-    font-weight: bold;
+    font-weight: 700;
+    border: 1px solid transparent;
+    font-size: .875rem;
+    border-radius: 2.0833333334em;
+    line-height: 1;
+    padding: 1.0625rem 1.875rem;
+    text-transform: uppercase;
+    letter-spacing: .08571428571em;
+    -webkit-transition: background-color .15s ease,color .15s ease;
+    transition: background-color .15s ease,color .15s ease;
+    white-space: nowrap;
+    vertical-align: middle;
+    margin: .0625rem .375rem;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
 }
 
 /*HEADER
