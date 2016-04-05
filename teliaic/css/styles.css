@@ -70,7 +70,12 @@ h5 {
 /*FORMS
 --------------------------------------*/
 
-p.submit {
+p.form-field.email.pd-text.required.no-label {
+	width: 600px;
+}
+
+
+.submit {
 	display: inline-block;
 	position: relative;
 }
