@@ -93,6 +93,10 @@ form.form p.submit input {
     outline: none;
 }
 
+form.form p span.description {
+	color: #fff !important;
+}
+
 form.form input.text {
     width: 285px !important;
     height: 46px !important;
