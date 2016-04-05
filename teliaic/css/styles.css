@@ -71,10 +71,13 @@ h5 {
 --------------------------------------*/
 
 p.submit {
-	display: none;
+	position: relative;
+	float: right;
 }
 
 form.form p.submit input {
+	position: relative;
+	float: left;
     border-color: #990ae3;
     background-color: #FFF;
     color: #000;
