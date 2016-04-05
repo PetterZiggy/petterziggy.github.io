@@ -93,6 +93,16 @@ form.form p.submit input {
     outline: none;
 }
 
+form.form input.text {
+    width: 285px;
+    height: 46px;
+    border: none !important;
+}
+form.form input {
+    font-weight: normal;
+    padding: 2px;
+}
+
 /*HEADER
 --------------------------------------*/
 .header {
