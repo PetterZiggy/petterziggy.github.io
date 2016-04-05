@@ -94,10 +94,12 @@ form.form p.submit input {
 }
 
 form.form input.text {
-    width: 285px;
-    height: 46px;
+    width: 285px !important;
+    height: 46px !important;
     border: none !important;
     font-size: 16px;
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 2px 2px 2px 2px;
 }
 form.form input {
