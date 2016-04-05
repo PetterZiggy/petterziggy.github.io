@@ -71,8 +71,7 @@ h5 {
 --------------------------------------*/
 
 form.form p.submit input {
-    margin: 0 10px 0 0;
-    padding: 2px 12px;
+    
     border-color: #990ae3;
     background-color: #FFF;
     color: #000;
