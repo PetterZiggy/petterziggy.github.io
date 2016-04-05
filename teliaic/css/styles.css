@@ -82,7 +82,7 @@ form.form p.no-label, form.form p.email-pref {
     padding: 0;
 }
 
-.submit {
+p.submit {
 	display: inline-block;
 	position: relative;
 }
@@ -90,7 +90,6 @@ form.form p.no-label, form.form p.email-pref {
 form.form p.submit {
 	margin: 0 auto;
     padding: 0;
-}
 }
 
 form.form p.submit input {
