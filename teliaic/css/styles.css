@@ -98,7 +98,10 @@ form.form p span.description {
 }
 
 form.form p.error {
-	color: #ff3264 !important;
+    background: #ff3264 !important;
+    color: #fff;
+    padding-left: .5em;
+    margin-bottom: 1em;
 }
 
 form.form p.errors {
