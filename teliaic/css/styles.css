@@ -327,7 +327,7 @@ a:active {
 	height: 200px;
 }
 
-.information img {
+.infoimgdescript {
 	position: relative;
     top: 50%;
     transform: translateY(-60%);
