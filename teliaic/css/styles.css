@@ -325,7 +325,11 @@ a:active {
 
 .break {
 	display: block;
-	height: 180px;
+	height: 200px;
+}
+
+.information img {
+	top: 50%;
 }
 
 /*FOOTER
