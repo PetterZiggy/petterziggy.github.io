@@ -82,7 +82,7 @@ p.form-field.email.pd-text.required.no-label {
 }
 
 form.form p.no-label, form.form p.email-pref {
-    margin: 0.2em .5em .6em auto !important;
+    margin: 0 .5em .6em auto !important;
     padding: 0;
 }
 
@@ -92,7 +92,7 @@ p.submit {
 }
 
 form.form p.submit {
-    margin: 2px 0 2em 38px !important;
+    margin: 0 0 2em 40px !important;
     padding: 0;
 }
 
@@ -115,7 +115,6 @@ form.form p.submit input {
     transition: background-color .15s ease,color .15s ease;
     white-space: nowrap;
     vertical-align: middle;
-    margin: .0625rem .375rem !important;
     display: inline-block;
     cursor: pointer;
     outline: none;
