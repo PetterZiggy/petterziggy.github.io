@@ -88,7 +88,7 @@ p.submit {
 }
 
 form.form p.submit {
-    margin: 2px 1em 4em 1em !important;
+    margin: 2px 1em 4em 0 !important;
     padding: 0;
 }
 
@@ -123,6 +123,11 @@ form.form p span.description {
 
 form.form p.error {
 	color: #fff !important;
+}
+
+p.error.no-label {
+	display: none;
+
 }
 
 form.form p.errors {
