@@ -270,12 +270,20 @@ a:active {
     position: relative;
 }
 
-.middle {
+.title {
 	display: block;
 	position: relative;
 	width: 765px;
 	margin: 0 auto;
 }
+
+.description {
+	display: block;
+	position: relative;
+	width: 600px;
+	margin: 0 auto;
+}
+
 
 /*CONTENT
 --------------------------------------*/
