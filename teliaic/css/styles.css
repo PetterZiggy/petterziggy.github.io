@@ -323,6 +323,11 @@ a:active {
 	height: 500px;
 }
 
+.break {
+	display: block;
+	height: 180px;
+}
+
 /*FOOTER
 --------------------------------------*/
 .footer {
