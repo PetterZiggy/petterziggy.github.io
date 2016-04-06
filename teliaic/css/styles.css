@@ -329,7 +329,10 @@ a:active {
 }
 
 .information img {
-	top: 50%;
+	position: relative;
+    top: 50%;
+    transform: translateY(-60%);
+}
 }
 
 /*FOOTER
