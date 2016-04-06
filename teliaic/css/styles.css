@@ -275,12 +275,14 @@ a:active {
 	position: relative;
 	width: 765px;
 	margin: 0 auto;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 .description {
 	display: block;
 	position: relative;
-	width: 600px;
+	width: 610px;
 	margin: 0 auto;
 }
 
