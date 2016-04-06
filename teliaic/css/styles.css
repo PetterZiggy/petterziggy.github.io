@@ -92,7 +92,7 @@ p.submit {
 }
 
 form.form p.submit {
-    margin: 2px 1em 4em 0 !important;
+    margin: 2px 0 2em 38px !important;
     padding: 0;
 }
 
