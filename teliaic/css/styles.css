@@ -94,7 +94,7 @@ form.form p.submit {
 
 form.form p.submit input {
 	position: relative;
-	float: left;
+	float: right;
     border-color: #990ae3;
     background-color: #FFF;
     color: #000;
@@ -126,8 +126,8 @@ form.form p.error {
 }
 
 p.error.no-label {
-	width: 435px;
-	
+	width: 0px;
+
 }
 
 form.form p.errors {
