@@ -316,6 +316,13 @@ a:active {
 	font-size: 16px;
 }
 
+.information {
+	display: block;
+	background-color: #fff;
+	width: 100%;
+	height: 500px;
+}
+
 /*FOOTER
 --------------------------------------*/
 .footer {
