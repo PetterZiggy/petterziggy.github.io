@@ -86,6 +86,10 @@ form.form p.no-label, form.form p.email-pref {
     padding: 0;
 }
 
+div#error_for_71232_79962pi_71232_79962 {
+    height: 0px;
+}
+
 p.submit {
 	display: inline-block;
 	position: relative;
