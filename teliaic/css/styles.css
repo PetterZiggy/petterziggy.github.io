@@ -377,8 +377,8 @@ a:active {
 	opacity: 0.6;
 }
 
-.footer .columns {
-	display: block;
+.columns {
+	height: 100%;
 	position: relative;
   	top: 50%;
   	transform: translateY(-50%);
