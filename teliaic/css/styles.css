@@ -379,9 +379,8 @@ a:active {
 }
 
 .footer .inner {
-	height: 80%;
+	height: inherit;
 	position: relative;
-	top: 50%;
 	transform: translateY(-50%);
 }
 
