@@ -397,8 +397,12 @@ a:active {
 }
 
 .footersocial .inner .social {
-	position: relative;
-	float: left;
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 100%;
+    top: 5%;
+    transform: translateY(-50%);
 }
 
 
