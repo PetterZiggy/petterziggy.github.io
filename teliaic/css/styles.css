@@ -345,7 +345,7 @@ a:active {
 	float: left;
 	width: 570px;
 	height: 285px;
-	background: url('./img/pattern1.png') no-repeat center center;
+	background: url('../img/pattern1.png') no-repeat center center;
     background-size: cover;
 }
 
@@ -355,7 +355,7 @@ a:active {
 	float: right;
 	width: 570px;
 	height: 285px;
-	background: url('./img/pattern2.png') no-repeat center center;
+	background: url('../img/pattern2.png') no-repeat center center;
     background-size: cover;
 }
 
