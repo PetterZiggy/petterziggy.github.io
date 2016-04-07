@@ -377,13 +377,6 @@ a:active {
 	opacity: 0.6;
 }
 
-.columns {
-	height: 100%;
-	position: relative;
-  	top: 50%;
-  	transform: translateY(-50%);
-}
-
 .footer .inner div {
     float: left;
     width: 20%;
@@ -405,7 +398,6 @@ a:active {
 
 .footersocial .inner .social {
 	position: relative;
-	transform: translateY(-50%);
 	float: left;
 }
 
