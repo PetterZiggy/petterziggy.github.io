@@ -337,6 +337,7 @@ a:active {
 	display: block;
 	position: relative;
 	margin: 0 auto;
+	height: 100%;
 }
 
 .one {
