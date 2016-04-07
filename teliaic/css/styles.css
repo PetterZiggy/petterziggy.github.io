@@ -365,6 +365,7 @@ a:active {
 }
 
 .recommend .push {
+	height: 100%
 	position: relative;
 	top: 50%:
 	transform: translateY(-50%);
@@ -374,22 +375,22 @@ a:active {
 	display: block;
 	position: relative;
 	float: left;
-	width: 490px;
+	width: 570px;
 	height: 285px;
 	background: url('../img/pattern1.png') no-repeat center center;
     background-size: cover;
-    padding: 0 40px 0 40px;
+    padding: 2em;
 }
 
 .two {
 	display: block;
 	position: relative;
 	float: right;
-	width: 490px;
+	width: 570px;
 	height: 285px;
 	background: url('../img/pattern2.png') no-repeat center center;
     background-size: cover;
-    padding: 0 40px 0 40px;
+    padding: 2em;
 }
 
 /*FOOTER
