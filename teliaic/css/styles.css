@@ -375,22 +375,22 @@ a:active {
 	display: block;
 	position: relative;
 	float: left;
-	width: 570px;
+	width: 490px;
 	height: 285px;
 	background: url('../img/pattern1.png') no-repeat center center;
     background-size: cover;
-    padding: 2em;
+    padding: 0 40px 0 40px;
 }
 
 .two {
 	display: block;
 	position: relative;
 	float: right;
-	width: 570px;
+	width: 490px;
 	height: 285px;
 	background: url('../img/pattern2.png') no-repeat center center;
     background-size: cover;
-    padding: 2em;
+    padding: 0 40px 0 40px;
 }
 
 /*FOOTER
