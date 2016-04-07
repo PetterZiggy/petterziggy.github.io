@@ -423,8 +423,7 @@ a:active {
 
 .footer .inner .row {
 	position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    top: -37%;
 }
 
 .footer .inner .row div {
