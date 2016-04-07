@@ -345,7 +345,8 @@ a:active {
 	float: left;
 	width: 570px;
 	height: 285px;
-	background-color: #990AE3;
+	background: url('./img/pattern1.png') no-repeat center center;
+    background-size: cover;
 }
 
 .two {
@@ -354,7 +355,8 @@ a:active {
 	float: right;
 	width: 570px;
 	height: 285px;
-	background-color: #990AE3;
+	background: url('./img/pattern2.png') no-repeat center center;
+    background-size: cover;
 }
 
 /*FOOTER
