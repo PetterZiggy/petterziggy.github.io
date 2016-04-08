@@ -650,6 +650,10 @@ a:active {
 	display: none;
 	}
 
+	.nav2 {
+	display: none;
+	}
+
 	.navmobile {
 	display: block;
 	float: right;
