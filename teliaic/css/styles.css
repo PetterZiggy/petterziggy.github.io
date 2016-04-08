@@ -92,7 +92,7 @@ button {
 }
 
 .inner {
-	width: 1176px;
+	width: 85%;
 	height: 100%;
 	margin: 0 auto;
 }
@@ -480,6 +480,16 @@ a:active {
 	width: 748px;
 	height: 100%;
 	margin: 0 auto;
+	}
+
+	.formstart {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 0 auto;
+    margin-top: 4em;
 	}
 
 	h1 {
