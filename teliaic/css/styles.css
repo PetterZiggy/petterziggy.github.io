@@ -457,13 +457,24 @@ a:active {
 /*SHARE
 --------------------------------------*/
 
+@media only screen and (max-width: 1024px) {
+    
+    /* For tablets: */
 
-@media (max-width: 894px) {
-
-.inner {
+    .inner {
 	width: 748px;
 	height: 100%;
 	margin: 0 auto;
+	}
 }
 
+@media only screen and (max-width: 704px) {
+    
+    /* For mobile phones: */
+
+    .inner {
+	width: 320px;
+	height: 100%;
+	margin: 0 auto;
+	}
 }
