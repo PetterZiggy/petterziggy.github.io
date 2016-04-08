@@ -513,4 +513,26 @@ a:active {
 	font-weight: normal;
 	}
 
+	.logo {
+	display: block;
+	float: left;
+	width: 195px;
+	position: relative;
+	margin-right: 40px;
+  	top: 50%;
+  	transform: translateY(-50%);
+	}
+
+	.nav1 {
+	display: block;
+	float: left;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+	}
+
+	.nav1 a {
+	margin-right: 25px;
+	}
+
 }
