@@ -579,7 +579,7 @@ a:active {
 
 	h1 {
 	font-family: 'Pebble', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 48px;
+	font-size: 36px;
 	color: #fff;
 	text-transform: uppercase;
 	line-height: 1em;
@@ -589,7 +589,7 @@ a:active {
 
 	h2 {
 	font-family: 'Pebble', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 36px;
+	font-size: 24px;
 	color: #fff;
 	text-transform: uppercase;
 	line-height: 1em;
@@ -599,7 +599,7 @@ a:active {
 
 	h3 {
 	font-family: 'Pebble', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 24px;
+	font-size: 21px;
 	text-transform: uppercase;
 	}
 
@@ -617,7 +617,7 @@ a:active {
 
 	h5 {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	display: inline;
 	font-weight: normal;
 	}
@@ -633,11 +633,12 @@ a:active {
 	}
 
 	.nav1 {
-	display: block;
-	float: left;
-	position: relative;
-  	top: 50%;
-  	transform: translateY(-50%);
+	display: none;
+	}
+
+
+	.nav2 {
+	display: none;
 	}
 
 	.nav1 a {
