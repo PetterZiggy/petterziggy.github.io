@@ -659,7 +659,7 @@ a:active {
 	} 
 
 	.navmobile a {
-  	font: 'iconfont';
+  	font-family: 'iconfont';
   	font-size: 24px;
 	} 
 
