@@ -656,8 +656,6 @@ a:active {
 	position: relative;
   	top: 50%;
   	transform: translateY(-50%);
-  	font: 'iconfont';
-  	font-size: 24px;
 	} 
 
 	.navmobile a {
