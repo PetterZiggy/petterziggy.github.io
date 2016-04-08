@@ -457,18 +457,8 @@ a:active {
 /*SHARE
 --------------------------------------*/
 
-@media (min-width: 0px) and (max-width: 496px) {
-    
-    /* For mobile phones: */
 
-    .inner {
-	width: 320px;
-	height: 100%;
-	margin: 0 auto;
-	}
-}
-
-@media (min-width: 496px) and (max-width: 894px) {
+@media screen and (max-width: 894px) {
     
     /* For tablets: */
 
