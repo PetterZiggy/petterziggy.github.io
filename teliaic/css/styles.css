@@ -386,23 +386,23 @@ a:active {
 }
 
 .one {
-	display: block;
-	position: relative;
-	float: left;
-	width: 490px;
-	height: 285px;
-	background: url('../img/pattern1.png') no-repeat center center;
+    display: block;
+    position: relative;
+    float: left;
+    width: 40%;
+    height: 285px;
+    background: url('../img/pattern1.png') no-repeat center center;
     background-size: cover;
     padding: 0 40px 0 40px;
 }
 
 .two {
-	display: block;
-	position: relative;
-	float: right;
-	width: 490px;
-	height: 285px;
-	background: url('../img/pattern2.png') no-repeat center center;
+    display: block;
+    position: relative;
+    float: right;
+    width: 40%;
+    height: 285px;
+    background: url('../img/pattern2.png') no-repeat center center;
     background-size: cover;
     padding: 0 40px 0 40px;
 }
