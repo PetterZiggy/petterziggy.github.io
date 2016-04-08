@@ -740,6 +740,19 @@ a:active {
     margin-top: 15px;
 	}
 
+	p.error.no-label {
+    display: inline-block !important;
+    width: 100% !important;
+	}
+
+	form.form p.errors {
+    background: #ff3264 !important;
+    width: 100%;
+    color: #fff;
+    padding-left: .5em;
+    margin-bottom: 1em;
+	}
+
 	.recommend .push {
     height: 100%;
     position: relative;
