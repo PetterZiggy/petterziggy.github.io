@@ -177,7 +177,7 @@ p.error.no-label {
 
 form.form p.errors {
     background: #ff3264 !important;
-    width: 610px;
+    width: 230px;
     color: #fff;
     padding-left: .5em;
     margin-bottom: 1em;
@@ -743,14 +743,6 @@ a:active {
 	p.error.no-label {
     display: inline-block !important;
     width: 100% !important;
-	}
-
-	form.form p.errors {
-    background: #ff3264 !important;
-    width: 100%;
-    color: #fff;
-    padding-left: .5em;
-    margin-bottom: 1em;
 	}
 
 	.recommend .push {
