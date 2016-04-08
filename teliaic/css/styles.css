@@ -645,6 +645,28 @@ a:active {
 	margin-right: 25px;
 	}
 
+	.title {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2em;
+	}
+
+	.description {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+	}
+
+	.break {
+    display: block;
+    height: 360px;
+	}
+
 	.one {
     display: block;
     position: relative;
