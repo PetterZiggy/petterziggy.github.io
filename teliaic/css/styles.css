@@ -467,4 +467,50 @@ a:active {
 	height: 100%;
 	margin: 0 auto;
 	}
+
+	h1 {
+	font-family: 'Pebble', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 48px;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 1em;
+	display: inline;
+    font-weight: bold;
+	}
+
+	h2 {
+	font-family: 'Pebble', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 36px;
+	color: #fff;
+	text-transform: uppercase;
+	line-height: 1em;
+	display: inline;
+    font-weight: bold;
+	}
+
+	h3 {
+	font-family: 'Pebble', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	}
+
+	h4 {
+	font-family: 'Pebble', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 21px;
+	text-transform: uppercase;
+    display: inline;
+    -webkit-margin-before: 1.33em;
+    -webkit-margin-after: 1.33em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+	}
+
+	h5 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	display: inline;
+	font-weight: normal;
+	}
+
 }
