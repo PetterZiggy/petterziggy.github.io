@@ -356,11 +356,6 @@ a:active {
     transform: translateY(-40%);
 }
 
-.below img {
-    width: 100% !important;
-    height: 100% !important;
-}
-
 .recommend {
 	display: block;
 	position: relative;
@@ -675,6 +670,11 @@ a:active {
 	.below {
     position: relative;
     transform: translateY(-15%);
+	}
+
+	.below img {
+    width: 100% !important;
+    height: 100% !important;
 	}
 
 	.formstart {
