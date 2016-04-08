@@ -262,7 +262,13 @@ a:active {
 .nav2 a {
 	font-family: 'iconfont';
 	font-size: 24px;
+	margin-right: 25px;
 }
+
+.navmobile {
+	display: none;
+}
+
 
 /*BREADCRUMBS
 --------------------------------------*/
@@ -644,10 +650,15 @@ a:active {
 	display: none;
 	}
 
-
-	.nav2 {
-	display: none;
-	}
+	.navmobile {
+	display: block;
+	float: right;
+	position: relative;
+  	top: 50%;
+  	transform: translateY(-50%);
+  	font: 'iconfont';
+  	font-size: 24px;
+	} 
 
 	.nav1 a {
 	margin-right: 25px;
