@@ -92,9 +92,12 @@ button {
 }
 
 .inner {
-	width: 1176px;
-	height: 100%;
-	margin: 0 auto;
+    width: 90%;
+    max-width: 1176px;
+    padding-left: 5%;
+    padding-right: 5%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 /*FORMS
@@ -131,7 +134,8 @@ p.submit {
 form.form p {
     clear: left;
     line-height: 1.4em;
-    margin: 0 0 !important;
+    margin: 0 auto !important;
+    width: 57%;
     padding: 0 0 !important;
 }
 
@@ -325,19 +329,18 @@ a:active {
 }
 
 .title {
-	display: block;
-	position: relative;
-	width: 765px;
-	margin: 0 auto;
-	text-align: center;
-	text-transform: uppercase;
-	margin-top: 2em;
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 2em;
 }
 
 .description {
 	display: block;
 	position: relative;
-	width: 600px;
 	margin: 0 auto;
 }
 
@@ -477,9 +480,11 @@ a:active {
     /* For tablets: */
 
     .inner {
-	width: 748px;
-	height: 100%;
-	margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0 auto;
 	}
 
 	.formstart {
