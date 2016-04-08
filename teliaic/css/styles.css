@@ -456,3 +456,14 @@ a:active {
 
 /*SHARE
 --------------------------------------*/
+
+
+@media (max-width: 894px) {
+
+.inner {
+	width: 748px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+}
