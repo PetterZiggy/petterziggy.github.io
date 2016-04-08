@@ -451,7 +451,7 @@ a:active {
     float: left;
     text-align: center;
     width: 100%;
-    top: -10%;
+    top: 5%;
     transform: translateY(-50%);
 }
 
