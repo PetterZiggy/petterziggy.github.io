@@ -733,6 +733,13 @@ a:active {
     top: 25px;
 	}
 
+	form.form p span.description {
+    color: #fff !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+	}
+
 	.recommend .push {
     height: 100%;
     position: relative;
@@ -744,7 +751,7 @@ a:active {
     display: block;
     position: relative;
     float: none;
-    width: 285px;
+    width: 75%;
     height: 285px;
     background: url('../img/pattern1.png') no-repeat center center;
     background-size: cover;
@@ -756,7 +763,7 @@ a:active {
     display: block;
     position: relative;
     float: none;
-    width: 285px;
+    width: 75%;
     height: 285px;
     background: url('../img/pattern2.png') no-repeat center center;
     background-size: cover;
