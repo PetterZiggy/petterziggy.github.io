@@ -135,7 +135,8 @@ form.form p {
     clear: left;
     line-height: 1.4em;
     margin: 0 auto !important;
-    width: 57%;
+    width: 100%;
+    max-width: 600px;
     padding: 0 0 !important;
 }
 
