@@ -771,12 +771,41 @@ a:active {
     margin: 0 auto;
 	}
 
+	.information {
+    display: block;
+    background-color: #fff;
+    width: 100%;
+    height: 920px;
+	}
+
 	.footer {
     display: block;
     background-color: #990AE3;
     color: #fff;
     width: 100%;
-    height: 450px !important;
+    height: 1200px !important;
     position: relative;
+	}
+
+	.footer .inner .row {
+    position: relative;
+    top: 20px;
+	}
+
+	.footer .inner .row div {
+    float: left;
+    width: 100%;
+    font-size: 14px;
+    line-height: 2.5em;
+    position: relative;
+	}
+
+	.footersocial .inner .social {
+    position: relative;
+    float: left;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
 	}
 }
