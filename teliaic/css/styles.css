@@ -669,7 +669,68 @@ a:active {
 
 	.break {
     display: block;
-    height: 360px;
+    height: 200px;
+	}
+
+	.below {
+    position: relative;
+    transform: translateY(-15%);
+	}
+
+	.formstart {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 4em;
+	}
+
+	p.form-field.email.pd-text.required.no-label {
+    width: 100%;
+    float: none;
+	}
+
+	form.form input.text {
+    width: 100% !important;
+    height: 46px !important;
+    border: none !important;
+    font-size: 16px;
+    color: #333;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 2px 2px 2px 2px;
+	}
+
+	form.form p.submit input {
+    position: relative;
+    float: none;
+    border-color: #990ae3;
+    background-color: #FFF;
+    color: #000;
+    font-weight: 700;
+    border: 1px solid transparent;
+    font-size: .875rem;
+    border-radius: 30px;
+    line-height: 1;
+    height: 50px;
+    padding: 1.0625rem 1.875rem !important;
+    text-transform: uppercase;
+    letter-spacing: .08571428571em;
+    -webkit-transition: background-color .15s ease,color .15s ease;
+    transition: background-color .15s ease,color .15s ease;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+	}
+
+	form.form p {
+    clear: left;
+    line-height: 1.4em;
+    margin: 0 0 !important;
+    padding: 0 0 !important;
+    top: 25px;
 	}
 
 	.one {
