@@ -566,6 +566,11 @@ a:active {
   	transform: translateY(-50%);
 	} 
 
+	.navmobile a {
+    font-family: 'iconfont';
+    font-size: 24px;
+	}
+
 	.one {
     display: block;
     position: relative;
