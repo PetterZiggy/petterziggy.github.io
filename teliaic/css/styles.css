@@ -551,16 +551,20 @@ a:active {
 	}
 
 	.nav1 {
+	display: none;
+	}
+
+	.nav2 {
+	display: none;
+	}
+
+	.navmobile {
 	display: block;
-	float: left;
+	float: right;
 	position: relative;
   	top: 50%;
   	transform: translateY(-50%);
-	}
-
-	.nav1 a {
-	margin-right: 25px;
-	}
+	} 
 
 	.one {
     display: block;
