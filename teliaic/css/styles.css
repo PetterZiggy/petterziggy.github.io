@@ -147,7 +147,7 @@ form.form p.submit {
 
 form.form p.submit input {
 	position: relative;
-	float: right;
+    float: none;
     border-color: #990ae3;
     background-color: #FFF;
     color: #000;
@@ -164,9 +164,10 @@ form.form p.submit input {
     transition: background-color .15s ease,color .15s ease;
     white-space: nowrap;
     vertical-align: middle;
-    display: inline-block;
+    display: block;
     cursor: pointer;
     outline: none;
+    margin: 0 auto;
 }
 
 form.form p span.description {
@@ -192,7 +193,7 @@ form.form p.errors {
 }
 
 form.form input.text {
-    width: 430px !important;
+    width: 100% !important;
     height: 46px !important;
     border: none !important;
     font-size: 16px;
@@ -200,6 +201,7 @@ form.form input.text {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 2px 2px 2px 2px;
 }
+
 form.form input {
     font-weight: normal;
     padding: 2px 2px 2px 2px;
