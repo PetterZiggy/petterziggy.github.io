@@ -572,7 +572,7 @@ a:active {
     display: block;
     position: relative;
     float: left;
-    width: 285px;
+    width: 35%;
     height: 285px;
     background: url('../img/pattern1.png') no-repeat center center;
     background-size: cover;
@@ -583,7 +583,7 @@ a:active {
     display: block;
     position: relative;
     float: right;
-    width: 285px;
+    width: 35%;
     height: 285px;
     background: url('../img/pattern2.png') no-repeat center center;
     background-size: cover;
