@@ -113,7 +113,7 @@ button {
 
 
 p.form-field.email.pd-text.required.no-label {
-	width: 435px;
+	width: 100%;
 	float: left;
 }
 
@@ -485,8 +485,8 @@ a:active {
     .inner {
     width: 90%;
     height: 100%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 0;
+    padding-right: 0;
     margin: 0 auto;
 	}
 
