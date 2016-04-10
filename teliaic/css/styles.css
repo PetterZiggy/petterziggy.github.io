@@ -138,6 +138,7 @@ form.form p {
     width: 100%;
     max-width: 600px;
     padding: 0 0 !important;
+    top: 25px;
 }
 
 form.form p.submit {
