@@ -498,31 +498,6 @@ a:active {
     margin-top: 4em;
 	}
 
-	form.form p.submit input {
-    position: relative;
-    float: none;
-    border-color: #990ae3;
-    background-color: #FFF;
-    color: #000;
-    font-weight: 700;
-    border: 1px solid transparent;
-    font-size: .875rem;
-    border-radius: 30px;
-    line-height: 1;
-    height: 50px;
-    padding: 1.0625rem 1.875rem !important;
-    text-transform: uppercase;
-    letter-spacing: .08571428571em;
-    -webkit-transition: background-color .15s ease,color .15s ease;
-    transition: background-color .15s ease,color .15s ease;
-    white-space: nowrap;
-    vertical-align: middle;
-    display: block;
-    cursor: pointer;
-    outline: none;
-    margin: 0 auto;
-	}
-
 	h1 {
 	font-family: 'Pebble', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 48px;
