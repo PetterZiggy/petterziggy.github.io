@@ -595,7 +595,7 @@ a:active {
     background-color: #990AE3;
     color: #fff;
     width: 100%;
-    height: 450px !important;
+    height: 500px !important;
     position: relative;
 	}
 }
@@ -825,7 +825,6 @@ a:active {
     display: block;
     background-color: #fff;
     width: 100%;
-    height: 920px;
 	}
 
 	.footer {
