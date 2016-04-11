@@ -453,8 +453,9 @@ a:active {
 }
 
 .footer .inner .row {
-	position: relative;
-    padding-top: 20px;
+    position: relative;
+    padding-top: 140px;
+    top: -20%;
 }
 
 .footer .inner .row div {
@@ -853,6 +854,7 @@ a:active {
 
 	.footer .inner .row {
     position: relative;
+    padding-top: 0;
     top: 20px;
 	}
 
