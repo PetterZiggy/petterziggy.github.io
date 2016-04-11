@@ -181,7 +181,7 @@ form.form p.error {
 
 p.error.no-label {
 	display: inline-block !important;
-	width: 0px !important;
+	width: 100% !important;
 
 }
 
@@ -191,6 +191,7 @@ form.form p.errors {
     color: #fff;
     padding-left: .5em;
     margin-bottom: 1em;
+    float: left;
 }
 
 form.form input.text {
