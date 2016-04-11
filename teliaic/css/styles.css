@@ -101,11 +101,14 @@ button {
 }
 
 .more {
-	display: none;
-	z-index: 1;
-	height: 100%;
-	width: 80;
-	background-color: #fff;
+    display: none;
+    z-index: 1;
+    height: 100%;
+    width: 80%;
+    padding: 10%;
+    background-color: #fff;
+    font-size: 2em;
+    line-height: 3em;
 }
 
 /*FORMS
