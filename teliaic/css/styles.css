@@ -200,12 +200,10 @@ form.form input.text {
     font-size: 16px;
     color: #333;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    padding: 2px 2px 2px 2px;
 }
 
 form.form input {
     font-weight: normal;
-    padding: 2px 2px 2px 2px;
 }
 
 /*HEADER
@@ -745,7 +743,6 @@ a:active {
     font-size: 16px;
     color: #333;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    padding: 2px 2px 2px 2px;
 	}
 
 	form.form p.submit input {
