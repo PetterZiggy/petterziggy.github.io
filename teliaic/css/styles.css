@@ -100,9 +100,57 @@ button {
     margin: 0 auto;
 }
 
-.navmobile .more {
-	display: none;
-}
+.footer2
+    {
+        background-color: black;
+        margin-top: 1em;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        text-align: center;
+        width: 100%;
+    }
+
+        .footer2 .contactus
+    {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #e3e3e3;
+        text-decoration: none;
+        display: inline;
+    }
+        .footer2 .contactus:hover
+    {
+        color: white;
+    }
+
+
+
+        .footer2 .more
+    {
+
+        margin-left: 1em;
+        display: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: #e3e3e3;
+        text-decoration: none;
+    }
+        .footer2 .more a
+    {
+
+        margin-left: 2em;
+
+        color: #e3e3e3;
+        text-decoration: none;
+    }
+        .footer2 .more a:hover
+    {
+        display: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        color: white;
+        text-decoration: none;
+    }
 
 /*FORMS
 --------------------------------------*/
