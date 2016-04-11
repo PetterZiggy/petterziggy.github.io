@@ -805,7 +805,7 @@ a:active {
     height: 285px;
     background: url('../img/pattern1.png') no-repeat center center;
     background-size: cover;
-    padding: 0 40px 0 40px;
+    padding: 0 30px 0 30px;
     margin: 0 auto;
 	}
 
@@ -817,7 +817,7 @@ a:active {
     height: 285px;
     background: url('../img/pattern2.png') no-repeat center center;
     background-size: cover;
-    padding: 0 40px 0 40px;
+    padding: 0 30px 0 30px;
     margin: 0 auto;
 	}
 
