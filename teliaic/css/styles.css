@@ -482,6 +482,7 @@ a:active {
     position: relative;
     padding-top: 140px;
     top: -20%;
+    z-index: 0;
 }
 
 .footer .inner .row div {
