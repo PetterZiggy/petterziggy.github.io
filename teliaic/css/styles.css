@@ -92,6 +92,30 @@ button {
     outline: none;
 }
 
+#proimarybutton {
+	position: relative;
+	float: left;
+    border-color: #990ae3;
+    background-color: #FFF;
+    color: #000;
+    font-weight: 700;
+    border: 1px solid transparent;
+    font-size: .875rem;
+    border-radius: 30px;
+    line-height: 1;
+    height: 50px;
+    padding: 1.0625rem 1.875rem !important;
+    text-transform: uppercase;
+    letter-spacing: .08571428571em;
+    -webkit-transition: background-color .15s ease,color .15s ease;
+    transition: background-color .15s ease,color .15s ease;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+}
+
 .inner {
     width: 90%;
     max-width: 1176px;
