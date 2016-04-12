@@ -92,7 +92,7 @@ button {
     outline: none;
 }
 
-#primarybutton {
+.primarybutton {
 	position: relative;
 	float: left;
     border-color: #990ae3;
