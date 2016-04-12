@@ -43,9 +43,10 @@ h2 {
 }
 
 h3 {
-	font-family: 'Pebble', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 36px;
-	text-transform: uppercase;
+    font-family: 'Pebble', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    line-height: 1em;
 }
 
 h4 {
