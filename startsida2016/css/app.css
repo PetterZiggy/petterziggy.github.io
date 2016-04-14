@@ -7,14 +7,14 @@
  */
 @font-face {
   font-family: 'Pebble';
-  src: url("../fonts/Pebble_W_Rg.eot?#iefix");
-  src: url("../fonts/Pebble_W_Rg.eot?#iefix") format("eot"), url("../fonts/Pebble_W_Rg.woff") format("woff"), url("../fonts/Pebble_W_Rg.ttf") format("truetype");
+  src: url("http://digitalstyle.teliasonera.com/assets/toolkit/fonts/Pebble_W_Rg.eot?#iefix");
+  src: url("../fonts/Pebble_W_Rg.eot?#iefix") format("eot"), url("../fonts/Pebble_W_Rg.woff") format("woff"), url("http://digitalstyle.teliasonera.com/assets/toolkit/fonts/Pebble_W_Rg.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
   font-family: 'iconfont';
-  src: url("../fonts/Telia-Icon-Glyphs.woff") format("woff"), url("../fonts/Pebble_W_Rg.ttf") format("truetype");
+  src: url("http://digitalstyle.teliasonera.com/assets/toolkit/fonts/Telia-Icon-Glyphs.woff") format("woff"), url("http://digitalstyle.teliasonera.com/assets/toolkit/fonts/Pebble_W_Rg.ttf") format("truetype");
   font-weight: 400;
   font-style: normal; }
 
