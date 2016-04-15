@@ -208,6 +208,36 @@ header {
     color: #000;
 }
 
+.newswide {
+    width: 100%;
+    padding: 1.25em;
+    background: #fff;
+    clear: both;
+    min-height: 442px;
+}
+
+.inner1 {
+    width: 64%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.inner2 {
+    width: 32%;
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.newssmall {
+    width: 100%;
+    padding: 1.25em;
+    background: #fff;
+    min-height: 440px;
+
+}
+
+
 @media (max-width: 894px) {
 
     .hero {
@@ -612,4 +642,28 @@ header {
 	position: relative;
     background-color: #fff;
     color: #000;
-} }
+} 
+
+.newswide {
+    width: 100%;
+    padding: 1.25em;
+    background: #fff;
+    clear: both;
+    min-height: 100%;
+}
+
+.inner1 {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+
+}
+
+.inner2 {
+    width: 100%;
+    float: none;
+    display: inline-block;
+    vertical-align: none;
+}
+
+}

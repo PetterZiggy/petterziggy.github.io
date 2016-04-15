@@ -182,6 +182,30 @@ header {
   background-color: #fff;
   color: #000; }
 
+.newswide {
+  width: 100%;
+  padding: 1.25em;
+  background: #fff;
+  clear: both;
+  min-height: 442px; }
+
+.inner1 {
+  width: 64%;
+  display: inline-block;
+  vertical-align: top; }
+
+.inner2 {
+  width: 32%;
+  float: right;
+  display: inline-block;
+  vertical-align: top; }
+
+.newssmall {
+  width: 100%;
+  padding: 1.25em;
+  background: #fff;
+  min-height: 440px; }
+
 @media (max-width: 894px) {
   .hero {
     background: url("../images/bg-top_tablet.jpg") no-repeat top center;
@@ -468,7 +492,22 @@ header {
   .right_box .container .itemleft .button {
     position: relative;
     background-color: #fff;
-    color: #000; } }
+    color: #000; }
+  .newswide {
+    width: 100%;
+    padding: 1.25em;
+    background: #fff;
+    clear: both;
+    min-height: 100%; }
+  .inner1 {
+    width: 100%;
+    display: inline-block;
+    vertical-align: top; }
+  .inner2 {
+    width: 100%;
+    float: none;
+    display: inline-block;
+    vertical-align: none; } }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
@@ -2119,7 +2158,7 @@ h6 {
   font-family: "Pebble";
   font-weight: normal;
   font-style: normal;
-  color: #990ae3;
+  color: #000000;
   text-rendering: optimizeLegibility;
   margin-top: 0;
   margin-bottom: 1.25rem;
