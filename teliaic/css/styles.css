@@ -209,7 +209,10 @@ form.form p.submit input {
 }
 
 form.form p span.description {
-	color: #fff !important;
+    color: #fff !important;
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
 }
 
 form.form p.error {
