@@ -776,6 +776,15 @@ a:active {
     height: 100% !important;
 	}
 
+    .recommend {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    height: 285px;
+    color: #fff;
+    margin-bottom: 150px;
+    }
+
 	.formstart {
     display: block;
     position: relative;
