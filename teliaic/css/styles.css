@@ -379,10 +379,16 @@ a:active {
     margin-top: 2em;
 }
 
-.description {
-	display: block;
-	position: relative;
-	margin: 0 auto;
+.preview {
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.infobelow {
+    display: block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 
