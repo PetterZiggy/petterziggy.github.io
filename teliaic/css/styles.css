@@ -423,11 +423,11 @@ a:active {
 }
 
 .recommend {
-	display: block;
-	position: relative;
-	margin: 0 auto;
-	height: 100%;
-	color: #fff;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    height: 285px;
+    color: #fff;
 }
 
 .recommend .push {
@@ -442,7 +442,7 @@ a:active {
     position: relative;
     float: left;
     width: 40%;
-    height: 285px;
+    height: 100%;
     background: url('../img/pattern1.png') no-repeat center center;
     background-size: cover;
     padding: 0 40px 0 40px;
@@ -453,7 +453,7 @@ a:active {
     position: relative;
     float: right;
     width: 40%;
-    height: 285px;
+    height: 100%;
     background: url('../img/pattern2.png') no-repeat center center;
     background-size: cover;
     padding: 0 40px 0 40px;
