@@ -32,7 +32,7 @@ h1 {
 	color: #fff;
 	text-transform: uppercase;
 	line-height: 1em;
-	display: inline;
+	display: block;
     font-weight: bold;
 }
 
@@ -466,7 +466,7 @@ a:active {
 	background-color: #990AE3;
 	color: #fff;
 	width: 100%;
-    height: 400px !important;
+    height: 450px !important;
     position: relative;
 }
 
@@ -503,6 +503,7 @@ a:active {
     font-size: 14px;
     text-align: center;
     float: left;
+    position: absolute;
 }
 
 .footersocial img {
