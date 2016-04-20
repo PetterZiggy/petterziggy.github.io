@@ -237,7 +237,7 @@ form.form p.errors {
 }
 
 form.form input.text {
-    width: 90% !important;
+    width: 100% !important;
     max-width: 600px !important;
     height: 46px !important;
     border: none !important;
@@ -807,7 +807,7 @@ a:active {
 
     form.form input.text {
     width: 90% !important;
-    max-width: 320px !important;
+    max-width: 365px !important;
     height: 46px !important;
     border: none !important;
     font-size: 16px;
