@@ -182,7 +182,7 @@ form.form p.submit {
 }
 
 form.form p.submit input {
-	position: relative;
+    position: relative;
     float: none;
     border-color: #990ae3;
     background-color: #FFF;
@@ -204,6 +204,7 @@ form.form p.submit input {
     cursor: pointer;
     outline: none;
     margin: 0 auto;
+    margin-bottom: 300px;
 }
 
 form.form p span.description {
@@ -230,7 +231,7 @@ form.form p.errors {
 }
 
 form.form input.text {
-    width: 96% !important;
+    width: 100% !important;
     max-width: 600px !important;
     height: 46px !important;
     border: none !important;
