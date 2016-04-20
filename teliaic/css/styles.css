@@ -220,9 +220,8 @@ form.form p.error {
 }
 
 p.error.no-label {
-	display: inline-block !important;
-	width: 100% !important;
-
+    display: block !important;
+    width: 100% !important;
 }
 
 form.form p.errors {
@@ -231,7 +230,7 @@ form.form p.errors {
     color: #fff;
     padding-left: .5em;
     margin-bottom: 1em;
-    float: left;
+    float: none;
 }
 
 form.form input.text {
