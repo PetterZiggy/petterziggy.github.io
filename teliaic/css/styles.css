@@ -213,6 +213,7 @@ form.form p span.description {
     width: 100%;
     text-align: center;
     margin-top: 15px;
+    display: block;
 }
 
 form.form p.error {
@@ -236,7 +237,7 @@ form.form p.errors {
 }
 
 form.form input.text {
-    width: 100% !important;
+    width: 90% !important;
     max-width: 600px !important;
     height: 46px !important;
     border: none !important;
@@ -244,6 +245,8 @@ form.form input.text {
     color: #333;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     padding: 0px 0px 0px 20px;
+    display: block;
+    margin: auto;
 }
 
 form.form input {
