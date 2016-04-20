@@ -771,7 +771,7 @@ a:active {
     transform: translateY(-15%);
 	}
 
-	.below img {
+	.preview img {
     width: 100% !important;
     height: 100% !important;
 	}
