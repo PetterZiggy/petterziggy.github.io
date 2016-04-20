@@ -230,7 +230,9 @@ form.form p.errors {
     color: #fff;
     padding-left: .5em;
     margin-bottom: 1em;
-    float: none;
+    text-align: center;
+    margin: 0 auto !important;
+    display: block !important;
 }
 
 form.form input.text {
