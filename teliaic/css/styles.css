@@ -552,7 +552,7 @@ a:active {
 	color: #fff;
 	text-transform: uppercase;
 	line-height: 1em;
-	display: inline;
+	display: block;
     font-weight: bold;
 	}
 
