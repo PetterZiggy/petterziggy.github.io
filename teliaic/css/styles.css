@@ -831,7 +831,8 @@ a:active {
     cursor: pointer;
     outline: none;
     margin: 0 auto;
-	}
+    margin-bottom: 250px;
+    }
 
 	form.form p {
     clear: left;
