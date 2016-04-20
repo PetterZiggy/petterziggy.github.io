@@ -62,10 +62,11 @@ h4 {
 }
 
 h5 {
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-size: 21px;
-	display: inline;
-	font-weight: normal;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    display: block;
+    color: #fff;
 }
 
 button {
